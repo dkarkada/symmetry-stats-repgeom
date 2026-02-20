@@ -1,6 +1,6 @@
 # Fourier Embeddings
 
-This repository contains the experiments for the paper ["Symmetries in language statistics shape the geometry of model representations."](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+This repository contains the experiments for the paper ["Symmetries in language statistics shape the geometry of model representations."](https://arxiv.org/abs/2602.15029v1)
 
 Authors: Dhruva Karkada, Daniel Korchinski, Andres Nava, Matthieu Wyart, Yasaman Bahri.
 
