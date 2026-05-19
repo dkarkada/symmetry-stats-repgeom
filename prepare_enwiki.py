@@ -7,7 +7,7 @@ import pickle
 from collections import Counter
 
 from datasets import load_dataset, load_from_disk
-from FileManager import FileManager
+from flab.empirics import FileManager
 
 
 class Vocabulary:

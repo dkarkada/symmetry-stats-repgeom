@@ -4,7 +4,7 @@ from tqdm import tqdm
 import os
 import sys
 
-from FileManager import FileManager
+from flab.empirics import FileManager
 
 if len(sys.argv) < 2:
     print("Usage: python compute_cooccurrence.py <corpus_dirname> <opt:vocab_sz>")

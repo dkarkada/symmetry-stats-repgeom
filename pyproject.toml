@@ -1,11 +1,12 @@
 [project]
-name = "enwiki"
+name = "fourier-embeds"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "datasets>=4.2.0",
+    "flab",
     "geopandas>=1.1.2",
     "ipykernel>=7.0.1",
     "jupyter>=1.1.1",
@@ -15,4 +16,8 @@ dependencies = [
     "scipy>=1.16.3",
     "torch>=2.9.0",
     "tqdm>=4.67.1",
+    "transformer-lens>=3.2.1",
 ]
+
+[tool.uv.sources]
+flab = { git = "https://github.com/the-feature-lab/flab" }
